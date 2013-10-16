@@ -4,9 +4,9 @@ module.exports = (grunt) ->
 
   files =
     sourceJSON: "http://docs.webplatform.org/Special:Ask/-5B-5BCategory:CSS%20Properties-5D-5D/format=json/limit=500/offset=0/link=none/headers=hide/syntax=basic/prettyprint=yes/"
-    tempJSON:     "tmp/css_properties.json"
-    tempCSS:  "tmp/properties.css"
-    initialCSS:     "dist/initial.css"
+    tempJSON: "tmp/css_properties.json"
+    tempCSS: "tmp/properties.css"
+    initialCSS: "dist/initial.css"
 
   grunt.loadNpmTasks task for task in [
     "grunt-contrib-clean"
@@ -46,7 +46,7 @@ module.exports = (grunt) ->
           processContent: (content, srcPath) ->
             results = JSON.parse(content).results
             props = _(results).keys().map (prop) ->
-              prop.replace(/^css\/properties\//, '') + ": initial;"
+              prop.replace(/^css\/properties\//, '') + ":initial;"
 
             """
             /*
