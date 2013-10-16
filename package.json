@@ -1,0 +1,26 @@
+{
+  "name": "initial.css",
+  "version": "0.1.0",
+  "description": "Not quite a CSS reset or normalizer but resets all CSS *properties* to their `initial` value.",
+
+  "author": "Jason Karns <jason@karns.name>",
+  "homepage": "https://github.com/jasonkarns/initial.css",
+  "keywords": [ "css", "initial", "reset" ],
+  "license": "MIT",
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jasonkarns/initial.css.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jasonkarns/initial.css/issues"
+  },
+
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-curl": "~1.1.1"
+  }
+}
