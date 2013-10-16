@@ -1,6 +1,6 @@
 {
   "name": "initial.css",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Not quite a CSS reset or normalizer but resets all CSS *properties* to their `initial` value.",
 
   "author": "Jason Karns <jason@karns.name>",
