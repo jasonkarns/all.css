@@ -1,19 +1,19 @@
 {
-  "name": "initial.css",
+  "name": "all.css",
   "version": "0.1.1",
   "description": "Not quite a CSS reset or normalizer but resets all CSS *properties* to their `initial` value.",
 
   "author": "Jason Karns <jason@karns.name>",
-  "homepage": "https://github.com/jasonkarns/initial.css",
+  "homepage": "https://github.com/jasonkarns/all.css",
   "keywords": [ "css", "initial", "reset" ],
   "license": "MIT",
 
   "repository": {
     "type": "git",
-    "url": "git://github.com/jasonkarns/initial.css.git"
+    "url": "git://github.com/jasonkarns/all.css.git"
   },
   "bugs": {
-    "url": "https://github.com/jasonkarns/initial.css/issues"
+    "url": "https://github.com/jasonkarns/all.css/issues"
   },
 
   "devDependencies": {
